@@ -1,0 +1,31 @@
+.integrate {
+	padding: 169px 0px 162px 0px;
+
+	&_title {
+		max-width: 791px;
+		width: 100%;
+		text-align: center;
+		line-height: 7.5rem;
+	}
+
+	&_subtitle {
+		max-width: 539px;
+		width: 100%;
+		text-align: center;
+		line-height: 3rem;
+	}
+
+	&_img {
+		padding: 25px 0px 32px 0px;
+		max-width: 1023px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.integrate {
+		padding: 50px 0 50px 0;
+	}
+
+}
