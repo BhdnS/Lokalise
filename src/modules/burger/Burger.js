@@ -1,11 +1,11 @@
 export default class Burger {
-  constructor(param) {
-    this.mask = param.mask;
-    this.burger = param.burger;
-    this.box = param.box;
-    this.body = param.body;
-    this.burgerImg = param.burgerImg;
-    this.nav = param.nav;
+  constructor() {
+    this.mask = document.querySelector('#mask');
+    this.burger = document.querySelector('#burger');
+    this.box = document.querySelector('#box');
+    this.body = document.querySelector('body');
+    this.burgerImg = document.querySelectorAll('.burger_img');
+    this.nav = document.querySelector('#nav');
 
     this.flag = false;
   }

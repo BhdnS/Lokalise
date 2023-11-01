@@ -1,6 +1,6 @@
 export default class Form {
-  constructor(btn) {
-    this.btn = btn;
+  constructor() {
+    this.btn = document.querySelectorAll('button');
   }
 
   form() {
