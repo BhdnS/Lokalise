@@ -1,0 +1,57 @@
+.main {
+
+	&_container {
+		padding: 129px 10px 172px 10px;
+	}
+
+	&_img {
+		max-width: 759px;
+		width: 100%;
+	}
+
+	&_title {
+		max-width: 552px;
+		line-height: 7rem;
+	}
+
+	&_text {
+		max-width: 471px;
+		line-height: 3.5rem;
+	}
+
+	&_subtext {
+		max-width: 369px;
+	}
+}
+
+
+@media (max-width: 1330px) {
+	
+	.main {
+
+		&_container {
+			padding: 29px 10px 22px 10px;
+		}
+	
+		&_title {
+			text-align: center;
+		}
+
+		&_text {
+			padding: 15px 0;
+			align-self: center;
+			text-align: center;
+		}
+
+		&_subtext {
+			text-align: center;
+			align-self: center;
+			padding-top: 15px;
+		}
+	}
+
+	.header_form {
+		align-self: center;
+	}
+
+}

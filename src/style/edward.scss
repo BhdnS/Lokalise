@@ -1,0 +1,50 @@
+.edward {
+	padding: 53px 0px 105px 0px;
+
+	&_blockquote{
+		max-width: 895px;
+		width: 100%;
+	}
+
+	&_text {
+		padding-top: 10px;
+		line-height: 4rem;
+	}
+
+	&_author {
+		font-style: normal;
+		padding-top: 25px;
+	}
+
+	&_logo-img {
+		padding-top: 7px;
+	}
+	
+}
+
+
+@media (max-width: 1330px) {
+	
+	.edward {
+		padding: 50px 0px 50px 0px;
+
+		&_text {
+			text-align: center;
+		}
+
+		&_author {
+			text-align: center;
+		}
+
+		&_logo {
+			padding-top: 20px;
+			text-align: center;
+		}
+
+		&_author-img {
+			padding-top: 20px;
+		}
+
+	}
+
+}
